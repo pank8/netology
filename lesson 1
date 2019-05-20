@@ -1,0 +1,36 @@
+#задание 1
+long_phrase = 'Насколько проще было бы писать программы, если бы не заказчики'
+short_phrase = '640Кб должно хватить для любых задач. Билл Гейтс (по легенде)'
+if len(long_phrase)> len(short_phrase):
+    print ("True")
+else:
+    print ("False")
+
+
+#задание 2
+text = 'Если программист в 9-00 утра на работе, значит, он там и ночевал'
+a = text.count("а")
+i = text.count("и")
+if a>i:
+    print ("а")
+else:
+    print ("и")
+
+#задание 3
+#1 килобайт = 1024 байта
+#1 мегабайт = 1024 килобайта
+print ("Введите значение объема в байтах")
+byte = input()
+Mb = float(byte)/float(1024)/float(1024)
+print("Объем файла равен " + str(Mb) + "Mb")
+
+
+#задание 4
+import math
+sin =  math.sin(math.radians(30))
+print(sin)
+
+#задание 5
+a = 0.1
+b = 0.2
+print (a+b)
